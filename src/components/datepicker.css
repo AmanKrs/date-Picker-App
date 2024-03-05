@@ -1,0 +1,19 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.datepickercontainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.datepicker {
+  display: flex;
+  flex-direction: column;
+}
+input[type="date"] {
+  color-scheme: dark;
+}
